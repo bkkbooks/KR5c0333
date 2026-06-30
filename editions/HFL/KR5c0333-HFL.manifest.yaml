@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0333/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0333/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 種芝草法
+  date: '2015-08-29 00:56:13.696778'
+  source:
+    repository: kanripo
+    path: KR5c0333
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0333_000-HFL.yaml, hash: 'sha256:770d447574b3d6755ef2acef83a3457fdae235664fc97612df94ecbdddea21b7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0333_000-HFL.markers.yaml, hash: 'sha256:d50a6c3a8cac3a3853313e5a071daef1567cb7450b30b30976081feb946686a1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0333_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1381
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8879a4df986dd3df91178c43c8333b718b771b93e92f48441483677fe3959a3c

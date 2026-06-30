@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0333/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0333/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 種芝草法
+  date: '2015-08-29 00:56:13.696778'
+  source:
+    repository: kanripo
+    path: KR5c0333
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0333_000-ZTDZ.yaml, hash: 'sha256:18ea3d554ccc942afad6eaf44b387672e91e6cb6e8e8b86faef8e1e36e3c11ef'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0333_000-ZTDZ.markers.yaml, hash: 'sha256:6597616c33c2097861d426822fc837490b468439e5ec2f2269f10379520d0568'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0333_SJB_000-190335b
+    span:
+    - body
+    - 0
+    - 1381
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:32f223043b60c008e42f8e37d9b18ed41319764329f022bb332f80b8c13fd47b
